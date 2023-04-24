@@ -285,10 +285,11 @@ a, b =
 #     # 튜플처럼 사용
 #     # 인덱싱, 슬라이싱
 #     for i in args:
+#          result = i
 #          result += i
 #     return result
 
-# result1 = add_many(1, 2, 3, 4, 5)
+# result1 = add_many(1, 2, 3, 4, 5, 6)
 # result2 = add_many(3, 2, 9, 4, 5)
 # result3 = add_many(1, 2)
 
@@ -355,11 +356,6 @@ a, b =
 
 
 
-
-
-
-
-
 ####################################################
 
 
@@ -379,5 +375,101 @@ a, b =
 # 많이 찾아보고 써보면서 감을 잡는 것이 중요함. 반복숙달. 
 # 백문이불여일타 : 안 보고 쳐보기 해야 실력이 는다
 
-# 다음주: 데이터분석 데이터처리
-# 머신러닝
+# 다음주: 데이터분석 데이터처리 다다음주: 머신러닝 3개월은 파이썬 해야 함. 자바도 좀 할 듯 
+ 
+
+
+#############################################################
+
+
+# 사용자 정의 함수  
+
+# 홀수 판별 함수
+# 정수 1개를 입력받고 홀수인지 판별하는 함수
+# 함수 이름 : is_odd_number
+# 파라미터 : n
+# 반환값 : 홀수면 True, 짝수면 False
+
+
+# 경제적인지 아닌지 생각해보자...
+# def is_odd_number(n):
+#     if n % 2 == 1:
+#         print("True")
+#     else:
+#         print("False")
+
+
+# is_odd_number(132)
+
+
+# n = int(input("홀수 확인 : "))
+
+# def is_odd_number(n):
+#     if n % 2 == 0:
+#         print("False")
+#     else:
+#         print("True")
+
+# is_odd_number(n)
+
+
+
+
+############# 아래 세 개의 결과는 같다##############
+
+# def is_odd_number(n):
+#     if n % 2 == 1:
+#         return True
+#     else:
+#         return False
+
+# print(is_odd_number(11))   
+
+
+# def is_odd_number(n):
+#     if n % 2 == 1:
+#         return True
+#     return False
+
+# print(is_odd_number(11))
+
+
+# def is_odd_number(n):
+    # return n % 2 == 1
+
+# print(is_odd_number(11))
+
+
+#############################################
+
+
+# 테두리를 출력하는 함수 
+# 문자열을 입력받고 print 함수를 이용해 
+# 테두리와 함게 문자를 출력한다. 
+
+# 함수 이름 : get_borderde_str
+# 파라미터 : message
+# 반환값 : None
+# print 예시
+# """
+# *****
+# hello
+# *****
+# """
+
+# inf = input("메시지를 입력하세요! ")
+
+# def get_borderde_str(message): 
+#     n = len(message)
+#     print("*" * n)
+#     print(message)
+#     print("*" * n)
+
+# get_borderde_str(inf)
+
+
+#############################################
+
+
+
+
