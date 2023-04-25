@@ -279,9 +279,9 @@ a, b =
 ####################
 
 # 1 ~ 10까지 더한다
-# *를 사용한 매개변수
+# *를 사용한 매개변수 args는 바꿀 수 있지만 관용적으로 사용되는 이름이어서 이렇게 쓰는 게 좋다. 
 # 입력값이 몇 개가 될 지 모를 때(안 정해졌을 때 사용한다.)
-# def add_many(*args): # args 바꿀 수는 있지만 관용적으로 사용되는 이름임
+# def add_many(*args):
 #     # 튜플처럼 사용
 #     # 인덱싱, 슬라이싱
 #     for i in args:
@@ -296,6 +296,8 @@ a, b =
 # print(result1)
 # print(result2)
 # print(result3)
+
+
 
 ###########################################
 
@@ -439,6 +441,7 @@ a, b =
 
 # print(is_odd_number(11))
 
+# 질문처럼 is나 has가 앞에 오면 주로 bool 타입의 상수를 반환한다. true/False
 
 #############################################
 
@@ -470,6 +473,111 @@ a, b =
 
 #############################################
 
+# inf = str(input("메시지를 입력하세요! "))
+
+# def get_borderde_str(message): 
+#     n = len(message)
+#     print("*" * n)
+#     print(message)
+#     print("*" * n)
+
+# get_borderde_str(inf)
+
+
+# def get_borderde_str(message): 
+#     message = str(message)
+#     n = len(message)
+#     print("*" * n)
+#     print(message)
+#     print("*" * n)
+
+# get_borderde_str("hello")
+# get_borderde_str(12345)
+
+# # 시퀀스형 데이터만 len함수 사용! 숫자는 len으로 못 세기 때문에 글자로 바꿔주어야 한다.  
 
 
 
+# m/s단위의 속도가 입력되면 
+# km/h단위의 속도로 변환한다.
+# 속도를 변환하는 함수 
+# 함수 이름: convert_velocity
+# 파라미터: velocity
+# km/h로 변환된 속도
+# 1km = 1000m 1hour = 3600sec
+
+# def convert_velocity(velocity): 
+#      # 1m/s * 3600(1시간)
+#      # 3600m/h / 1000
+#      # 1m/s 3600 / 
+#      # 초속 * 3600 / 1000 ==> 시속
+#      # 초속 * 3.6 = 시속
+#      result = velocity * 3.6
+#      return result
+
+# velocity = convert_velocity(10)
+# print(velocity)
+
+
+
+#################################
+
+"""
+출력 결과 n -> 4
+
+* 
+**
+***
+****
+
+"""
+
+# 별 찍기 함수 
+# 정수를 함수에 입력하여 호출하면 해당 정수 줄의 별을 화면에 출력하라. 
+# 함수 이름 : print_stars
+# 파라미터 : n
+# 반환값 : None
+
+
+# def print_stars(n):
+#     for i in range(1, (n+1)):
+#         for j in range(1, n+1): 
+#             print("*")
+#             for o in range(1, n):
+#             j += 1
+#         print("\t")
+#         i += 1
+
+# stars = print_stars(5)
+# print(stars)
+
+# def print_stars(n):
+#     for i in range(n): # 0 ~ n-1
+#         for j in range(i+1): # 0 ~ i
+#             print("*", end="") # 기본값 : end="" 아무것도 안 한다. 
+#         print() # 빈 프린트. 줄바꿈합니다. 
+# print_stars(4)
+
+# n = 4
+# for i in range(0, n+1):
+#     print(i * "*")
+
+# n = 4
+# for i in range(1, n+1):
+#     print(i * "*")
+
+# n = 4
+# for i in range(n+1):
+#     print(i * "*")
+
+# n = 4
+# i = 0
+# while i < n:
+#     j = 0
+#     while j < i+1:
+#         print("*", end="")
+#         j += 1
+#     print()
+#     i += 1
+
+# 안팎으로 while문으로 변경해 보자 . 
