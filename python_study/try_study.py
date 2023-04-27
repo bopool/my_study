@@ -51,14 +51,14 @@
 # print("에러 발생 후")
 # 조건으로 걸어둔 ZeroDivisionError가 아니라서 IndexError가 뜨고 먹통이 되어서 "에러 발생 후"도 뜨지 않는다.  
 
-try: 
-    [1, 2, 3, 4, 5][100]
-except ZeroDivisionError as e: 
-    print(e, "0으로 나눌 수 없습니다.")
-except IndexError as e: 
-    print(e, "인덱싱할 수 없습니다.")
-print("에러 발생 후")
-# 여러 개를 나열하여 에러를 예외처리하고 에러 내용을 체크할 수 있다. 에러 종류 메시지 출력됨 
+# try: 
+#     [1, 2, 3, 4, 5][100]
+# except ZeroDivisionError as e: 
+#     print(e, "0으로 나눌 수 없습니다.")
+# except IndexError as e: 
+#     print(e, "인덱싱할 수 없습니다.")
+# print("에러 발생 후")
+# # 여러 개를 나열하여 에러를 예외처리하고 에러 내용을 체크할 수 있다. 에러 종류 메시지 출력됨 
 
 
 
