@@ -4,17 +4,17 @@
 # 함수 이름 : sum_3_5
 
 
-# def sum_3_5(n):
-#     for i in range(n):
-#         if i % 3 == 0:
-#             i += 1
-#     for j in range(n):
-#         if j % 5 == 0:
-#             j += 1
-#     return i + j
+def sum_3_5(n):
+    for i in range(n):
+        if i % 3 == 0:
+            i += 1
+    for j in range(n):
+        if j % 5 == 0:
+            j += 1
+    return i + j
 
-# nonot = sum_3_5(12)
-# print(nonot)
+nonot = sum_3_5(12)
+print(nonot)
 
 # def sum_3_5(n):
 #     for i in range(n):
