@@ -4,17 +4,17 @@
 # 함수 이름 : sum_3_5
 
 
-def sum_3_5(n):
-    for i in range(n):
-        if i % 3 == 0:
-            i += 1
-    for j in range(n):
-        if j % 5 == 0:
-            j += 1
-    return i + j
+# def sum_3_5(n):
+#     for i in range(n):
+#         if i % 3 == 0:
+#             i += 1
+#     for j in range(n):
+#         if j % 5 == 0:
+#             j += 1
+#     return i + j
 
-nonot = sum_3_5(12)
-print(nonot)
+# nonot = sum_3_5(12)
+# print(nonot)
 
 # def sum_3_5(n):
 #     for i in range(n):
@@ -163,19 +163,19 @@ print(nonot)
 # 정수를 함수에 입력하여 호출하면 해당 정수 줄의 별을 화면에 출력한다. 
 # 함수 이름 : print_ stars2
 # 출력 결과 
-"""
-   *
-  **
- ***
-****
-"""
+# """
+#    *
+#   **
+#  ***
+# ****
+# """
 
 
-def print_stars2(n):
-    for i in range(1, n+1): # 1~n
-        print(" " * (n - i) + "*" * i)
+# def print_stars2(n):
+#     for i in range(1, n+1): # 1~n
+#         print(" " * (n - i) + "*" * i)
 
-print_stars2(10)
+# print_stars2(10)
 
 # 별찍기 10종 세트라는 게 있다...
 
@@ -184,12 +184,6 @@ print_stars2(10)
 # 내 단일 컴퓨터에서 프로그램 수행 결과를 파일로 저장하는 방법...
 # 로그 기록 남기거나 계산값 저장 등을 하기 위해. 
 # 설정 저장 프로그램으로 읽어오는 것 가능 
-
-
-
-
-
-
 
 
 

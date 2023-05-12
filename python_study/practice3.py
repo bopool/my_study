@@ -168,3 +168,13 @@
 #     if n % i == 0:
 #         print(i)
 #     i += 1
+
+# import copy
+# a = [5, 4, 3, 2, 1]
+# b = copy.deepcopy(a)
+
+# print(id(a), id(b))
+
+a == 10
+b == 10
+a == b
