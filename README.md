@@ -1,12 +1,16 @@
 # my_study
-## Python study 
 ### [네이버 블로그](https://blog.naver.com/bpcoding)
 ※ 날짜를 클릭하면 블로그 포스팅으로 이동합니다. 
 
+## 가상환경, Framework 
+- [기초적인 데이터가공, 데이터처리, Data Literacy ](https://blog.naver.com/bpcoding/223108812578)
+
+## Data study 
 ### 데이터 머신러닝 등 
 - [Python NumPy etc.](https://blog.naver.com/bpcoding/223093590517)
 - 기록 정리 중
 
+## Python study 
 ### 기초 수업
 - [4월 28일](https://blog.naver.com/bpcoding/223087956183)
 - [4월 27일](https://blog.naver.com/bpcoding/223086936392)
