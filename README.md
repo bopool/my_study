@@ -2,11 +2,11 @@
 ### [네이버 블로그](https://blog.naver.com/bpcoding)
 ※ 날짜를 클릭하면 블로그 포스팅으로 이동합니다. 
 
-## 가상환경, Framework 
+## 자바, 파이썬을 활용한 AWS 클라우드 인공지능 앱 제작
 - [기초적인 데이터가공, 데이터처리, Data Literacy ](https://blog.naver.com/bpcoding/223108812578)
 
 ## Data study 
-### 데이터 머신러닝 등 
+### 파이썬 Numpy, pandas, 데이터의 분석과 가공
 - [Python NumPy etc.](https://blog.naver.com/bpcoding/223093590517)
 - 기록 정리 중
 
